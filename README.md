@@ -6,7 +6,7 @@
   <img align="center" src="https://user-images.githubusercontent.com/31167065/125688291-84bdeaa3-5ba2-4d12-9da3-07c3bc3c333f.jpeg" width="500">  
 </p>
 
-* 👩‍💻 Descrição: Programa que calcula o Índice de Massa Corporal (IMC) e o peso ideal que uma pessoa precisa ter.
+* 👩‍💻 Descrição: Programa que calcula o Índice de Massa Corporal (IMC) e o peso ideal que uma pessoa precisa ter para se manter saudável.
 * 🛠 Tecnologias utilizadas: 
     - JavaFX;
     - Padrão de projeto MVC.
