@@ -1,0 +1,66 @@
+.geral {
+	-fx-alignment: CENTER;
+	-fx-background-color: #132743;
+	-fx-font-family: "URWBookman-Demi";
+	
+}
+
+.label {
+	-fx-alignment: CENTER; 
+	-fx-text-fill: #F8EFD4;
+	-fx-font-family: "URWBookman-Demi";
+	-fx-font-size: 15.0px;
+}
+
+.botao {
+	-fx-alignment: CENTER; 
+	-fx-background-color: #D7385E; 
+	-fx-text-fill: white;
+	-fx-font-family: "URWBookman-Demi";
+	-fx-padding: 5.0 15.0 5.0 15.0;
+	-fx-border-width: 2.0;
+	-fx-font-size: 15.0px;
+}
+
+.titulo {
+	-fx-alignment: CENTER; 
+	-fx-text-fill: White;
+	-fx-font-size: 30.0px;
+	-fx-font-family: 'Acme';
+}
+
+.label-baixo-peso {
+	-fx-background-color: #0092ce;
+	-fx-background-radius: 15.0px;
+	-fx-font-weight: bold;
+}
+
+.label-saudavel {
+	-fx-background-color: #70c022;
+	-fx-background-radius: 15.0px;
+	-fx-font-weight: bold;
+}
+
+.label-sobrepeso {
+	-fx-background-color: #e4ad16;
+	-fx-background-radius: 15.0px;
+	-fx-font-weight: bold;
+}
+
+.label-obesidade1 {
+	-fx-background-color: #e56100;
+	-fx-background-radius: 15.0px;
+	-fx-font-weight: bold;
+}
+
+.label-obesidade2 {
+	-fx-background-color: #9d0b0b;
+	-fx-background-radius: 15.0px;
+	-fx-font-weight: bold;
+}
+
+.label-obesidade3 {
+	-fx-background-color: #501644;
+	-fx-background-radius: 15.0px;
+	-fx-font-weight: bold;
+}
