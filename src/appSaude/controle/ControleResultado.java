@@ -56,7 +56,7 @@ public class ControleResultado {
 			labelCalculo.setText(texto);
 		} else if (ControleCalcularPesoIdeal.isCalcularPesoIdeal()) {
 			ControleCalcularPesoIdeal.setCalcularPesoIdeal(false);
-			texto = String.format("O peso ideal é:\n%.2f", ControleCalcularPesoIdeal.getPesoIdeal());
+			texto = String.format("O peso ideal é:\n%.2f Kg", ControleCalcularPesoIdeal.getPesoIdeal());
 			labelCalculo.getStyleClass().add("label-saudavel");
 			labelCalculo.setText(texto);
 		}
