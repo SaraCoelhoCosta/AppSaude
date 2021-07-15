@@ -9,6 +9,7 @@
 * 👩‍💻 Descrição: Programa que calcula o Índice de Massa Corporal (IMC) e o peso ideal que uma pessoa precisa ter para se manter saudável.
 * 🛠 Tecnologias utilizadas: 
     - JavaFX;
+    - CSS;
     - Padrão de projeto MVC.
 * :books: Trabalho desenvolvido para a matéria de Análise e Desenvolvimento de Sistemas e adaptado para JavaFX.
 * 📆 Data de criação: 2019
