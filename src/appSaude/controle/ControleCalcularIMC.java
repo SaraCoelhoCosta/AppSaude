@@ -29,7 +29,7 @@ public class ControleCalcularIMC {
 	private double altura;
 	private static double imc;
 	private static boolean calcularIMC = false;
-
+	
 	@FXML
 	private void calcularIMC() {
 	

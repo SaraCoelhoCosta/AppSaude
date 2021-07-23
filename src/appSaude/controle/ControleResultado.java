@@ -35,22 +35,22 @@ public class ControleResultado {
 
 			ControleCalcularIMC.setCalcularIMC(false);
 			if (ControleCalcularIMC.getImc() < 18.5) {
-				texto = String.format("Seu IMC: %.2f\n\nBaixo Peso!", ControleCalcularIMC.getImc());
+				texto = String.format("Seu IMC: %.2f\nBaixo Peso!", ControleCalcularIMC.getImc());
 				labelCalculo.getStyleClass().add("label-baixo-peso");
 			} else if (ControleCalcularIMC.getImc() >= 18.5 && ControleCalcularIMC.getImc() < 25) {
-				texto = String.format("Seu IMC: %.2f\n\nSaudável!", ControleCalcularIMC.getImc());
+				texto = String.format("Seu IMC: %.2f\nSaudável!", ControleCalcularIMC.getImc());
 				labelCalculo.getStyleClass().add("label-saudavel");
 			} else if (ControleCalcularIMC.getImc() >= 25 && ControleCalcularIMC.getImc() < 30) {
-				texto = String.format("Seu IMC: %.2f\n\nSobrepeso!", ControleCalcularIMC.getImc());
+				texto = String.format("Seu IMC: %.2f\nSobrepeso!", ControleCalcularIMC.getImc());
 				labelCalculo.getStyleClass().add("label-sobrepeso");
 			} else if (ControleCalcularIMC.getImc() >= 30 && ControleCalcularIMC.getImc() < 35) {
-				texto = String.format("Seu IMC: %.2f\n\nObesidade de grau 1", ControleCalcularIMC.getImc());
+				texto = String.format("Seu IMC: %.2f\nObesidade de grau 1", ControleCalcularIMC.getImc());
 				labelCalculo.getStyleClass().add("label-obesidade1");
 			} else if (ControleCalcularIMC.getImc() >= 35 && ControleCalcularIMC.getImc() < 40) {
-				texto = String.format("Seu IMC: %.2f\n\nObesidade de grau 2", ControleCalcularIMC.getImc());
+				texto = String.format("Seu IMC: %.2f\nObesidade de grau 2", ControleCalcularIMC.getImc());
 				labelCalculo.getStyleClass().add("label-obesidade2");
 			} else if (ControleCalcularIMC.getImc() >= 40) {
-				texto = String.format("Seu IMC: %.2f\n\nObesidade de grau 2", ControleCalcularIMC.getImc());
+				texto = String.format("Seu IMC: %.2f\nObesidade de grau 2", ControleCalcularIMC.getImc());
 				labelCalculo.getStyleClass().add("label-obesidade3");
 			}
 			labelCalculo.setText(texto);
